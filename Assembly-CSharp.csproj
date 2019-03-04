@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A27A26FD-A324-4544-D386-F550376FCB0F}</ProjectGuid>
+    <ProjectGuid>{66FCD3A2-23AF-8AB0-BF29-A3D22A649F5D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_2;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_2;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -60,21 +60,255 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\2D\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\2D\Scripts\Restarter.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\AutoCam.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
+    <Compile Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\External Sources\Effects\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\External Sources\Props\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\flicker.cs" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\External Sources\Props\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\External Sources\Effects\NavMeshComponents-master\NavMeshComponents-master\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\External Sources\Characters\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\External Sources\Props\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -278,13 +512,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/feb28/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -631,6 +865,24 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
+      <Project>{411A77B0-8187-5EE2-D2AC-1CA2CDB1A987}</Project>
+      <Name>NavMeshComponentsExamplesEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{8F4C93AF-D215-995B-42C0-2FDAD7F14E5C}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{398B60E3-ECE3-A5C3-16E9-5777315F13B0}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsExamples.csproj">
+      <Project>{9FF8B213-1FF9-D833-3E58-A4DA9C546F6D}</Project>
+      <Name>NavMeshComponentsExamples</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
