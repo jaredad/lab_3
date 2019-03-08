@@ -281,7 +281,6 @@
     <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\External Sources\Effects\NavMeshComponents-master\NavMeshComponents-master\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
@@ -867,10 +866,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
-      <Project>{411A77B0-8187-5EE2-D2AC-1CA2CDB1A987}</Project>
-      <Name>NavMeshComponentsExamplesEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{8F4C93AF-D215-995B-42C0-2FDAD7F14E5C}</Project>
       <Name>NavMeshComponentsEditor</Name>
@@ -878,10 +873,6 @@
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{398B60E3-ECE3-A5C3-16E9-5777315F13B0}</Project>
       <Name>NavMeshComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsExamples.csproj">
-      <Project>{9FF8B213-1FF9-D833-3E58-A4DA9C546F6D}</Project>
-      <Name>NavMeshComponentsExamples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

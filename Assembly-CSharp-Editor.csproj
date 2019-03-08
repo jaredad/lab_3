@@ -354,6 +354,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Assets/External Sources/Props/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -368,9 +371,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="PackageManagerAssembly">
-      <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Assets/External Sources/Props/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -732,10 +732,6 @@
       <Project>{66FCD3A2-23AF-8AB0-BF29-A3D22A649F5D}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
-      <Project>{411A77B0-8187-5EE2-D2AC-1CA2CDB1A987}</Project>
-      <Name>NavMeshComponentsExamplesEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{8F4C93AF-D215-995B-42C0-2FDAD7F14E5C}</Project>
       <Name>NavMeshComponentsEditor</Name>
@@ -743,10 +739,6 @@
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{398B60E3-ECE3-A5C3-16E9-5777315F13B0}</Project>
       <Name>NavMeshComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsExamples.csproj">
-      <Project>{9FF8B213-1FF9-D833-3E58-A4DA9C546F6D}</Project>
-      <Name>NavMeshComponentsExamples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
