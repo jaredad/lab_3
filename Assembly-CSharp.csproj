@@ -208,6 +208,10 @@
     <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\External Sources\Props\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\External Sources\Props\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\External Sources\Props\MagicMirror\Demo\DemoScript.cs" />
+    <Compile Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorCameraScript.cs" />
+    <Compile Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorReflectionScript.cs" />
+    <Compile Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorScript.cs" />
     <Compile Include="Assets\External Sources\Props\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\External Sources\Props\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\External Sources\Props\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -217,6 +221,7 @@
     <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\flicker.cs" />
+    <None Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorShaderOld.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
@@ -226,6 +231,7 @@
     <None Include="Assets\External Sources\Props\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorShaderBumpMap.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
@@ -255,6 +261,7 @@
     <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\External Sources\Props\MagicMirror\Prefab\Readme.txt" />
     <None Include="Assets\External Sources\Characters\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
@@ -281,6 +288,7 @@
     <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorShader.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
@@ -864,16 +872,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{8F4C93AF-D215-995B-42C0-2FDAD7F14E5C}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{398B60E3-ECE3-A5C3-16E9-5777315F13B0}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

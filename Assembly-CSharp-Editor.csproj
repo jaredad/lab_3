@@ -101,6 +101,7 @@
     <Compile Include="Assets\External Sources\Effects\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\External Sources\Effects\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\External Sources\Props\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\External Sources\Props\MagicMirror\Prefab\Editor\MagicMirrorEditor.cs" />
     <None Include="Assets\External Sources\Props\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Austin's PC/Documents/GameDev Projects/lab_3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -731,14 +732,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{66FCD3A2-23AF-8AB0-BF29-A3D22A649F5D}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{8F4C93AF-D215-995B-42C0-2FDAD7F14E5C}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{398B60E3-ECE3-A5C3-16E9-5777315F13B0}</Project>
-      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
