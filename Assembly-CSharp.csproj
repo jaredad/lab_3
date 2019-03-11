@@ -221,6 +221,9 @@
     <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\External Sources\Props\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\flicker.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\Zombie.cs" />
     <None Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorShaderOld.shader" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -286,6 +289,7 @@
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\External Sources\Effects\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\External Sources\Props\Weapons Pack(LOW POLY)\Weapons Pack info.txt" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\External Sources\Characters\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\External Sources\Props\MagicMirror\Prefab\MirrorShader.shader" />
