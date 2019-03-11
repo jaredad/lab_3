@@ -17,7 +17,7 @@ public class Zombie : MonoBehaviour
     public float speed;
     public Vector3 position;
 
-    public Animator anim;
+    private Animator anim;
     public GameObject fps;
     public GameObject zom;
     public GameObject enemy;
@@ -27,7 +27,7 @@ public class Zombie : MonoBehaviour
 
     public void Start()
     {
-        anim = zom.GetComponent<Animator>();
+        anim = enemy.GetComponent<Animator>();
         speed = 0.02f;
 
         //for(int i =0; i<4; i++)
@@ -49,7 +49,7 @@ public class Zombie : MonoBehaviour
 
             if (distance < attackRange)
             {
-                transform.LookAt(fps.transform);
+                transform.LookAt(fps.transform); 
                 anim.Play("attack");
             }
             else if (distance < walkRange)
