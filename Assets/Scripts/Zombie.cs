@@ -17,7 +17,7 @@ public class Zombie : MonoBehaviour
     public float speed;
     public Vector3 position;
 
-    private Animator anim;
+    public Animator anim;
     public GameObject fps;
     public GameObject zom;
     public GameObject enemy;
@@ -29,17 +29,11 @@ public class Zombie : MonoBehaviour
     {
         anim = enemy.GetComponent<Animator>();
         speed = 0.02f;
-
-        //for(int i =0; i<4; i++)
-        //{
-        //    position = new Vector3(Random.Range(1f, 1000f), 0.89f, Random.Range(1f, 1000f));
-        //    Instantiate(enemy, position, Quaternion.identity);
-        //}
     }
 
     public void Update()
     {
-        if(die==1)
+        if(die == 1)
         {
             //Do not call any animation
         }
@@ -51,6 +45,7 @@ public class Zombie : MonoBehaviour
             {
                 transform.LookAt(fps.transform); 
                 anim.Play("attack");
+                gun.takeDamage();
             }
             else if (distance < walkRange)
             {
@@ -74,11 +69,11 @@ public class Zombie : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.name[0] == 'F')
+        if(col.gameObject.name.Equals("FPSController"))
         {
             if (anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "attack")
             {
-                //gun.attacked(10f);
+                gun.takeDamage();
             }
         }
     }

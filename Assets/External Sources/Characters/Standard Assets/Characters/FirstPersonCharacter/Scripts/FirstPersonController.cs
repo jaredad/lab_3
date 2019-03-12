@@ -1,8 +1,10 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -27,6 +29,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+
+        public Text objectiveText;
+        public GameObject goldKey;
+        public GameObject door;
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -246,6 +252,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
             //dont move the rigidbody if the character is on top of it
             if (m_CollisionFlags == CollisionFlags.Below)
             {
+                if (hit.collider.name == "key_gold")
+                {
+                    Destroy(goldKey);
+                    Destroy(door);
+                    objectiveText.text = "You found the gold key! Find the silver key to escape!";
+                }
+
+                if (hit.collider.name == "key_silver")
+                {
+                    objectiveText.text = "You escaped!";
+                    UnityEngine.SceneManagement.SceneManager.LoadScene("Win");
+                }
+
                 return;
             }
 

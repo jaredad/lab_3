@@ -2,23 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Gun : MonoBehaviour
 {
 
     public float damage = 10f;
     public float range = 100f;
+    public float health = 100000f;
 
     public Camera fpsCam;
     public GameObject impact;
     public Vector3 position;
     public AudioClip shot;
     private GameObject bullet;
+    public Text healthText;
+    public bool hasWon;
 
     private void Start()
     {
         this.gameObject.AddComponent<AudioSource>();
         this.GetComponent<AudioSource>().clip = shot;
+        healthText.text = "Health: " + health;
     }
 
     void Update()
@@ -50,6 +55,12 @@ public class Gun : MonoBehaviour
         }
     }
 
+    public void takeDamage()
+    {
+        health -= 5f;
+        healthText.text = "Health: " + health;
+        if (health <= 0) { UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver"); }
+    }
     
 
 }
